@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ShareTheMeal</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Share The Meal</string>
+    <string name="nav_header_subtitle">Ram Veg Restaurant</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_Events">Events</string>
+    <string name="menu_Search">Search</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="menu_Activities">Activities</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_3_title">Muhammad Ali </string>
+    <string name="slide_3_desc">"Service to others is the rent you pay for your room here on earth."</string>
+
+    <string name="slide_4_title">Buddha</string>
+    <string name="slide_4_desc">"If you knew what I know about the power of giving, you would not let a single meal pass without sharing it in some way."</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

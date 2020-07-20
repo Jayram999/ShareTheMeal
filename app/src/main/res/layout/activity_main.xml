@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/stm"
+            android:layout_width="match_parent"
+            android:layout_height="650sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/unnamed"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dip"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share The Meal"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+    </FrameLayout>
+     <HorizontalScrollView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="180sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="30sp"
+            android:text="Login"
+            android:textColor="#000"
+            android:background="@drawable/fonts"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginTop="10sp"
+            android:id="@+id/register"
+            android:layout_width="180sp"
+            android:layout_height="65sp"
+            android:layout_marginRight="50sp"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/fonts2"/>
+    </LinearLayout>
+     </HorizontalScrollView>
+  </LinearLayout>
+</ScrollView>
